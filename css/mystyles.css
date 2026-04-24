@@ -1,0 +1,68 @@
+body { background-color: white !important; }
+
+.bg-primary{
+    background-color: #6495ed !important;
+    background-image:url("../assets/img/asfalt-light.png");
+}
+
+.social-icons .social-icon:hover{
+    background-color: #6b8e23 !important;
+}
+
+.text-primary{
+    color:#6b8e23 !important;
+}
+
+a{
+    color:blue;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
+    font-style: normal;
+}
+
+h1, .h1{
+    font-weight: 600;
+}
+
+h2, .h2{
+    font-weight: 400;
+}
+
+.subheading{
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    text-transform: none;
+}
+
+img{
+    width: 180px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.portfolio{
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* 一排3張 */
+column-gap: 20px;
+row-gap: 20px;
+}
+
+.portfolio img{
+width: 100%;
+aspect-ratio: 4 / 5;
+object-fit: cover;
+}
+
+.skills{
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* 一排3張 */
+column-gap: 0px;
+row-gap: 20px;
+}
+
+.skills img{
+width: 100%;
+aspect-ratio: 4 / 5;
+object-fit: cover;
+}
